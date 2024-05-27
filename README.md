@@ -11,8 +11,8 @@ It comes with some built-in features:
 - Scrollytelling built-in
 - An example of a responsive, d3 + svelte visualization.
 
-
 ### Getting Started
+
 To get started, first clone this repository. Then:
 
 ```
@@ -32,10 +32,8 @@ To build for prod:
 npm run build
 ```
 
-
 ### Deploying to GitHub Pages
 
-Follow the steps in this README: [https://github.com/sitek94/vite-deploy-demo](https://github.com/sitek94/vite-deploy-demo). 
+Follow the steps in this README: [https://github.com/sitek94/vite-deploy-demo](https://github.com/sitek94/vite-deploy-demo).
 
 Note that this is a Vite repo, so you may start at the header titled, "**Create a new GitHub repository**":
-
