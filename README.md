@@ -34,6 +34,22 @@ npm run build
 
 ### Deploying to GitHub Pages
 
+The easiest way it to bundle the assets, then upload this to your github pages repo (or the `gh-page` branch).
+
+First, create the `dist/` dir:
+
+```
+npm run build
+```
+
+Then, copy the contents of this `dist/` to your `__.github.io` git repo. E.g.;
+
+```
+cp -r dist/* ../path/to/your-website.github.io
+```
+
+### Deploying to GitHub Pages CI
+
 Follow the steps in this README: [https://github.com/sitek94/vite-deploy-demo](https://github.com/sitek94/vite-deploy-demo).
 
 Note that this is a Vite repo, so you may start at the header titled, "**Create a new GitHub repository**":
