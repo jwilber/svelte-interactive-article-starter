@@ -32,7 +32,7 @@ To build for prod:
 npm run build
 ```
 
-### Deploying to GitHub Pages
+### Deploying to GitHub Pages: static
 
 The easiest way it to bundle the assets, then upload this to your github pages repo (or the `gh-page` branch).
 
@@ -48,8 +48,20 @@ Then, copy the contents of this `dist/` to your `__.github.io` git repo. E.g.;
 cp -r dist/* ../path/to/your-website.github.io
 ```
 
+So, after all is said and done, your `__.github.io` project should have files like:
+
+```
+assets      build       favicon.png index.html
+```
+
+You will need to re-do this process everytime you want to update the site with your changes.
+
+### Deploying Vite to GitHub Pages 
+
+The second-easiest method it to follow this documentation: [https://vitejs.dev/guide/static-deploy#github-pages](https://vitejs.dev/guide/static-deploy#github-pages)
+
 ### Deploying to GitHub Pages CI
 
-Follow the steps in this README: [https://github.com/sitek94/vite-deploy-demo](https://github.com/sitek94/vite-deploy-demo).
+Alternatively, you can follow the steps in this README: [https://github.com/sitek94/vite-deploy-demo](https://github.com/sitek94/vite-deploy-demo).
 
 Note that this is a Vite repo, so you may start at the header titled, "**Create a new GitHub repository**":
