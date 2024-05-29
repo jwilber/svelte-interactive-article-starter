@@ -32,7 +32,7 @@ To build for prod:
 npm run build
 ```
 
-### Deploying to GitHub Pages: static
+### Deploying to GitHub Pages: Easiest
 
 The easiest way it to bundle the assets, then upload this to your github pages repo (or the `gh-page` branch).
 
@@ -56,9 +56,13 @@ assets      build       favicon.png index.html
 
 You will need to re-do this process everytime you want to update the site with your changes.
 
-### Deploying Vite to GitHub Pages 
+### Deploying to Github Pages: Second Easiest
 
-The second-easiest method it to follow this documentation: [https://vitejs.dev/guide/static-deploy#github-pages](https://vitejs.dev/guide/static-deploy#github-pages)
+Follow this guide: [https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3](https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3)
+
+### Deploying Vite to GitHub Pages
+
+Another method is follow this documentation: [https://vitejs.dev/guide/static-deploy#github-pages](https://vitejs.dev/guide/static-deploy#github-pages)
 
 ### Deploying to GitHub Pages CI
 
